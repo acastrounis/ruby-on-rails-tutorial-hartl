@@ -1,0 +1,7 @@
+   Prefix Verb URI Pattern          Controller#Action
+users_new GET /users/new(.:format) users#new
+     root GET /                    static_pages#home
+   signup GET /signup(.:format)    users#new
+     help GET /help(.:format)      static_pages#help
+    about GET /about(.:format)     static_pages#about
+  contact GET /contact(.:format)   static_pages#contact
